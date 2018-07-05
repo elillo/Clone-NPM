@@ -1,0 +1,337 @@
+
+ *{
+
+     margin: 0;
+     padding: 0;
+
+ }
+
+ body, html{
+     height: 100%;
+     width: 100%;
+ }
+
+ h1,p{
+     color: white;
+     font-weight: 400;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+ .nav-bar{
+    width: 100%; 
+    height: 30px;; 
+    background-color: #C12127;
+
+}
+
+.heart-picture{
+    font-size: 20px;
+
+}
+
+.nav-bar a, span{
+    color: rgba(255, 255, 255, 0.842);
+    text-decoration: none;
+    padding-left: 8px;
+    
+}
+
+.nav-bar ul{
+    margin-top: -16.5px;
+    direction: ltr;
+    margin-left: 70.5%;
+    
+}
+
+.nav-bar li{
+    display: inline-block;
+    margin: 0px 10px;
+    list-style-type: none;
+    padding: 0 10px;
+    color: rgba(255, 255, 255, 0.842);
+
+}
+
+.background {
+    background-color: #226081;
+    position: relative;
+
+}
+
+header{
+    background-image: url(images/skyline.png);
+    background-repeat: no-repeat;
+    background-position: 71% 0;
+    background-size: contain;
+    height:390px;
+    width: 100%;
+    
+}
+
+.logo-npm{
+ 
+    float: left;
+    width: 120px;
+    padding: 0 15px 0 13px;
+}
+
+.search-packages{
+    
+    padding-top: 12px;
+
+}
+
+header input{
+
+    width: 82%;
+    height: 45px;
+    background-color: #1F516E;
+    border: 1px solid #4C758C;
+
+}
+
+header h1{
+    text-align: center;
+    margin: 60px 448px auto auto;
+    font-size: 2.8em;
+    padding-bottom: 7px;
+
+}
+
+.p-header{
+    text-align: center;
+    width: 25%;
+    margin-left: 27.8%;
+    padding-top: 10px;
+    text-align: start;
+    line-height: 1.3em;
+    opacity: 0.8;
+
+}
+
+.sign-up-bear{
+
+    text-align: end;
+    color: rgba(255, 255, 255, 0.781);
+    padding: 0 20px 0 5px;
+    margin-top: -30px;
+    margin-right: 40px;
+
+}
+
+.bear-logo{
+    float: right;
+    width: 40px;
+    margin-top: -29px;
+    margin-right: 10px;
+ 
+}
+
+.button-header{
+
+    width: 170px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #F09233;
+    color: rgba(255, 255, 255, 0.842);;
+    border:none;
+    margin-left: 27.5%;
+    margin-top: 20px;
+    font-size: 1em;
+
+}
+
+.section-one {
+    height:500px;
+    background-color: #273547;
+
+}
+
+.section-one h2 {   
+   
+   float: right;
+   width: 370px;
+   padding-top: 110px;
+   line-height: 40px;
+   font-size: 2.1em;
+   margin-right: 21%;
+   font-weight: 400;
+   color: rgba(255, 255, 255, 0.877);
+
+}
+
+.list-sect-one{
+
+   float: right;
+   margin-right: 19.2%;
+   margin-top: -210px;
+   color: rgba(255, 255, 255, 0.808);
+   line-height: 40px;
+   font-size: 1.1em;
+    
+}
+
+.list-sect-one p {
+
+   display: inline; 
+   color: rgba(255, 255, 255, 0.808);
+   margin-left: -10px;
+}
+
+.list-sect-one a {
+   color: white;
+   text-decoration: none;
+
+}
+
+.persons {
+   margin-top: 4%;
+   width: 29%;
+   margin-left: 27%;
+
+}
+
+.button-sect-one {    
+   width: 170px;
+   height: 40px;
+   border-radius: 50px;
+   background-color: #CB3837;
+   color: rgba(255, 255, 255, 0.842);
+   border:none;
+   margin-left: -10px;
+   margin-top: 20px;
+   font-size: 1em;
+   display: block;
+
+}
+
+.sect-two-backgroud { 
+
+   background-color: #2481B7;
+
+}
+
+.section-two {
+   background-image: url(images/forklift.svg);
+   background-repeat: no-repeat;
+   background-size: 115% 400px;
+   height:400px;
+   width: 100%;
+   margin-left: 10px;
+
+}
+
+.section-two h2 {
+   font-weight: 400;
+   color:white;
+   font-size: 2.1em;
+   margin-left: 25.9%;
+   padding-top: 5%;
+
+}
+
+.section-two p {
+
+   color: rgba(255, 255, 255, 0.842);
+   font-weight: 400;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   width: 17%;
+   margin-left: 26%;
+   padding: 1.3% 0 0.9% 0;
+   line-height: 1.3em;
+}
+
+
+.button-inst-npm {
+
+   width: 145px;
+   height: 40px;
+   border-radius: 50px;
+   background-color: #34495E;
+   color: rgba(255, 255, 255, 0.842);
+   border:none;
+   margin-left: 25.8%;
+   font-size: 1em;   
+
+}
+
+.section-three {
+    
+    height:470px;
+    width: 100%;
+
+}
+
+.section-three h2 {
+    padding-top: 3%;
+    padding-bottom: 2%;
+    font-weight: 400;
+    color:rgb(89, 91, 97);
+    font-size: 2.1em;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+
+.section-three p {
+
+    color:rgb(143, 146, 153);
+    text-align: center;
+    
+}
+
+.section-three span {
+
+    color: rgba(255, 0, 0, 0.884);
+}
+
+.boxes {
+
+    width: 240px;
+    height: 240px;
+    float: left;
+    margin: auto 4%;
+    padding-top: 2%;
+    
+}
+
+.boxes img {
+    margin-left: 28%;
+    color:rgb(89, 91, 97);
+}
+
+.discover{
+    
+    padding: 5% 0 5%  39%;
+    color:rgb(89, 91, 97);
+
+}
+
+.Find{
+    padding: 5% 0 5%  45%;
+    color:rgb(89, 91, 97);
+
+}
+
+.Build{
+
+    padding: 5% 0 5%  44%;
+    color:rgb(89, 91, 97);
+
+}
+ 
+
+.the-last-box {
+
+    margin-left: 21.2%;
+    
+}
+
+
+
+
+
+
+
+
